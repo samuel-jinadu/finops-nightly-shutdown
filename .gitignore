@@ -1,0 +1,14 @@
+.venv
+push.sh
+project_snapshot.txt
+.vscode
+pack.sh
+
+fakecloud/**
+!fakecloud/.gitkeep
+
+# Terraform local state and plugins
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
